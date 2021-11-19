@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>icon_confirm-24px</title>
+    <desc>Created with Sketch.</desc>
+    <g id="icon_confirm-24px" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle" fill="#FFFFFF" opacity="0" x="0" y="0" width="24" height="24"></rect>
+        <path d="M6.91243687,16.8870581 L4.09644661,14.0710678 L6.21776695,11.9497475 L9.03375721,14.7657377 L16.7994949,7 L18.9208153,9.12132034 L11.1550776,16.8870581 L11.1675144,16.8994949 L9.04619408,19.0208153 L9.03375721,19.0083784 L9.02132034,19.0208153 L6.9,16.8994949 L6.91243687,16.8870581 Z" id="Mask" fill="#508F0C" fill-rule="nonzero"></path>
+        <circle id="Oval" stroke="#BCBCBC" cx="12" cy="12" r="10.5"></circle>
+    </g>
+</svg>

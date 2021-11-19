@@ -1,13 +1,21 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+// import './index.css';
+// import App from './App';
+import HidingCols from './components/HidingCols';
 import reportWebVitals from './reportWebVitals';
+import RowSelection from './RowSelection'
+
+const HidingColsComp = React.memo(HidingCols); 
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+    // <App />
+    <>
+    {/* <RowSelection /> */}
+    <HidingColsComp/>
+    </>
+    
+    ,
   document.getElementById('root')
 );
 

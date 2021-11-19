@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+	<title>icons_chevron_right-24px</title>
+	<desc>Created with Sketch.</desc>
+	<defs>
+		<path d="M10.6997404,16 C10.5205471,16 10.3413539,15.9318692 10.2050923,15.7946744 C9.9316359,15.521218 9.9316359,15.0788345 10.2050923,14.8053781 L13.0096538,11.9998833 L10.2050923,9.19532184 C9.9316359,8.92186543 9.9316359,8.47854872 10.2050923,8.20509231 C10.4785487,7.9316359 10.9209321,7.9316359 11.1943885,8.20509231 L14.4945315,11.5052352 C14.7679879,11.7786916 14.7679879,12.2220083 14.4945315,12.4954648 L11.1943885,15.7946744 C11.058127,15.9318692 10.8789337,16 10.6997404,16" id="path-1"></path>
+	</defs>
+	<g id="icons_chevron_right-24px" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+		<rect id="Rectangle" fill-opacity="0" fill="#FFFFFF" fill-rule="nonzero" x="0" y="0" width="24" height="24"></rect>
+		<mask id="mask-2" fill="white">
+			<use xlink:href="#path-1"></use>
+		</mask>
+		<use id="Chevron-(hollow)" fill="#1F59AA" xlink:href="#path-1"></use>
+	</g>
+</svg>

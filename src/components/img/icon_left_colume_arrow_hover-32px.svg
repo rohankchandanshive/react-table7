@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_left_colume_arrow_hover-32px</title>
+    <desc>Created with Sketch.</desc>
+    <g id="icon_left_colume_arrow_hover-32px" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle" fill-opacity="0" fill="#FFFFFF" fill-rule="nonzero" x="0" y="0" width="32" height="32"></rect>
+        <polygon id="Rectangle-92-Copy-10" fill="#D8D8D8" points="16 24 17 24 17 32 16 32"></polygon>
+        <polygon id="Shape" fill="#1D56AA" fill-rule="nonzero" transform="translate(7.500000, 12.000000) rotate(-180.000000) translate(-7.500000, -12.000000) " points="7.59 7.41 11.17 11 -7.29549754e-12 11 -7.29549754e-12 13 11.17 13 7.58 16.59 9 18 15 12 9 6"></polygon>
+        <rect id="Rectangle-3" fill="#1D56AA" fill-rule="nonzero" x="15" y="0" width="3" height="24"></rect>
+    </g>
+</svg>

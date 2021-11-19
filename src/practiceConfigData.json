@@ -1,0 +1,172 @@
+{
+  "id": "24248",
+  "active": true,
+  "pmIntegrationSettings": { "id": "84", "dataSyncEnabled": true },
+  "locationSettings": {
+    "primaryLocation": {
+      "id": "24248",
+      "corporateName": "PSS - GE",
+      "displayName": "PSS - GE - 2",
+      "streetNumber": "5501",
+      "streetName": "Dillard",
+      "secondaryAddressDesignator": null,
+      "city": "Cary",
+      "state": "North Carolina",
+      "zipcode": "27518",
+      "phone": 4122245666,
+      "fax": null,
+      "email": null,
+      "latitude": null,
+      "longitude": null,
+      "timezone": null
+    },
+    "locations": {}
+  },
+  "notifySettings": {
+    "enabled": true,
+    "enabledByPractice": true,
+    "notifyOneDayOut": true,
+    "notifyThreeDaysOut": true,
+    "notifyFiveDaysOut": true,
+    "reminderNotification": [
+      {
+        "id": "4257c331-f354-4fdb-9372-45cd670738d9",
+        "deliveryMethod": "Email",
+        "version": "Default",
+        "apptMethod": "In Office",
+        "status": "Published",
+        "cadence": [
+          { "timing": "Days", "periodValue": 1 },
+          { "timing": "Minutes", "periodValue": 30 },
+          { "timing": "Days", "periodValue": 5 },
+          { "timing": "Hours", "periodValue": 1 }
+        ],
+        "timingUnit": [
+          { "timing": "Days", "units": [1, 5] },
+          { "timing": "Hours", "units": [1] },
+          { "timing": "Minutes", "units": [30] }
+        ]
+      },
+      {
+        "id": "c1f83bf9-8687-4c91-b3ea-1076a3ae7c2e",
+        "deliveryMethod": "SMS",
+        "version": "Default",
+        "apptMethod": "In Office",
+        "status": "Published",
+        "cadence": [
+          { "timing": "Days", "periodValue": 1 },
+          { "timing": "Hours", "periodValue": 1 },
+          { "timing": "Minutes", "periodValue": 30 },
+          { "timing": "Days", "periodValue": 5 }
+        ],
+        "timingUnit": [
+          { "timing": "Days", "units": [1, 5] },
+          { "timing": "Hours", "units": [1] },
+          { "timing": "Minutes", "units": [30] }
+        ]
+      }
+    ],
+    "confirmationNotification": [
+      {
+        "deliveryMethod": "Email",
+        "version": "Default",
+        "apptMethod": "In Office",
+        "status": "Published",
+        "timing": "Upon Scheduling"
+      },
+      {
+        "deliveryMethod": "SMS",
+        "version": "Default",
+        "apptMethod": "In Office",
+        "status": "Published",
+        "timing": "Upon Scheduling"
+      }
+    ],
+    "includePatientFirstName": true,
+    "notifyLanguage": "en",
+    "emailEnabled": true,
+    "textEnabled": true,
+    "pushEnabled": false,
+    "notifyCurbsCheckIn": true,
+    "enableBroadcast": true,
+    "arrivalMessage": { "en": "", "es": "" },
+    "defaultArrivalMessage": {
+      "en": "The practice front office staff has been notified that you have arrived. Wait in the parking lot until you receive a message to come in. Call the office at [appointment phone number] if you have been waiting more than 15 minutes.",
+      "es": "Se ha notificado al personal de recepción de la práctica que ha llegado. Espere en el estacionamiento hasta que reciba un mensaje para entrar. Llame a la oficina al [número de teléfono de la cita] si ha estado esperando más de 15 minutos."
+    }
+  },
+  "merchantSettings": {
+    "id": "2560794497",
+    "name": "DEV3 Test Practice 7",
+    "acceptedCreditCards": [
+      "American Express",
+      "Visa",
+      "Discover",
+      "Mastercard"
+    ]
+  },
+  "precheckSettings": {
+    "enabled": true,
+    "disableDemographics": false,
+    "insuranceSettings": {
+      "enabled": true,
+      "textEntryEnabled": true,
+      "ocrEnabled": false
+    },
+    "disableCopay": false,
+    "disableBalance": false,
+    "enablePatientMode": true,
+    "enableForms": true,
+    "minBalanceAmount": 10,
+    "minBalancePercent": 0,
+    "minBalanceThreshold": 0,
+    "forms": [
+      {
+        "id": "ce561750-4e79-11eb-84ca-2333b0d93894",
+        "url": "http://d3-prechk01.dev.medfusion.net:82/#/forms",
+        "title": "1",
+        "enabledByAppointmentType": true,
+        "appointmentTypes": [
+          "22a52503-ccea-4b88-8007-b854acb99ba5",
+          "1cc71db7-b477-4a3a-8f52-aac428af912e",
+          "bd9c49c9-e658-4b3e-8e17-244d261a2a67"
+        ]
+      },
+      {
+        "id": "db772500-4e79-11eb-84ca-2333b0d93894",
+        "url": "https://stackoverflow.com/questions/42218237/tomcat-java-lang-illegalargumentexception-invalid-character-found-in-method-na",
+        "title": "2",
+        "enabledByAppointmentType": true,
+        "appointmentTypes": [
+          "1cc71db7-b477-4a3a-8f52-aac428af912e",
+          "22a52503-ccea-4b88-8007-b854acb99ba5",
+          "7a0ef1f7-0228-46bd-8dc6-c951892925ef"
+        ]
+      },
+      {
+        "id": "df0c5880-316c-11ec-9ba5-4fa94adafe95",
+        "url": "http://local.dev.medfusion.net:8080/",
+        "title": "3",
+        "enabledByAppointmentType": true,
+        "appointmentTypes": [
+          "1cc71db7-b477-4a3a-8f52-aac428af912e",
+          "22a52503-ccea-4b88-8007-b854acb99ba5",
+          "0bce0c6a-e59f-434b-9e80-ee95e4785859"
+        ]
+      }
+    ],
+    "messages": {
+      "secondaryInsuranceMessageEn": "Provide your secondary insurance card below.",
+      "secondaryInsuranceMessageEs": "Facilitar fotos de la tarjeta secundario o ingresar la informaciÃ³n manualmente.",
+      "primaryInsuranceMessageEs": "Facilitar fotos de la tarjeta primario o ingresar la informaciÃ³n manualmente.",
+      "patientModeCompletionMessage": "You may enter a custom message for patients to see after checking in at your office. For example, \"Thank you for completing the precheck process. Please hand the tablet back to the front desk.\"",
+      "tertiaryInsuranceMessageEs": "Facilitar fotos de la tarjeta terciario o ingresar la informaciÃ³n manualmente.",
+      "primaryInsuranceMessageEn": "Provide your primary insurance card below.",
+      "tertiaryInsuranceMessageEn": "Provide your tertiary insurance card below."
+    }
+  },
+  "pssSettings": { "enabled": true },
+  "ocrSettings": null,
+  "created": "2020-10-01T05:36:20:948Z",
+  "updated": "2021-11-08T06:44:49:760Z"
+}

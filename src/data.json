@@ -1,0 +1,555 @@
+{
+  "pageNumber": 1,
+  "totalPages": 1,
+  "totalAppointments": 2,
+  "allPagesAppointments": 2,
+  "locations": ["LA", "River Oaks Main"],
+  "providers": ["Brown, Jennifer", "Provd 1"],
+  "patients": ["Demo D Testerr", "rohan xyz"],
+  "appointments": [
+    {
+      "practiceId": "24248",
+      "pmPatientId": "12345",
+      "pmAppointmentId": "12232",
+      "encryptedIdentifier": "Sb+VGMl9UxVCUb8NS6Y9b/xlcLTr0d+alyd1A4bxVG8=",
+      "integrationId": "9",
+      "appointmentStatus": "NEW",
+      "appointmentType": "Appointment Check-In",
+      "locationId": "3",
+      "locationName": "River Oaks Main",
+      "providerName": "Brown, Jennifer",
+      "nationalProviderId": null,
+      "appointmentAddress": {
+        "phone": 4344344433,
+        "address": "3790 W. First Station : add line 1",
+        "address2": "marine lines plaza : add line 2",
+        "city": "Dallas",
+        "state": "GA",
+        "zip": "00000"
+      },
+      "startTime": 1635844061000,
+      "timezoneId": "America/Chicago",
+      "patientDemographics": {
+        "firstName": "Demo",
+        "middleName": "D",
+        "lastName": "Testerr",
+        "address": "NC",
+        "address2": "nc",
+        "city": "YC",
+        "state": "YC",
+        "zip": "12345",
+        "birthDate": "2000-01-01",
+        "phone": 5087437423,
+        "email": "nimishabankar90@gmail.com",
+        "language": "en",
+        "phoneType": null,
+        "pharmacies": [],
+        "status": "Pending" //<a onClick={()=> alert("Insurance details")}>View details</a>
+      },
+      "insuranceInfo": {
+        "insuranceList": [
+          {
+            "tier": "PRIMARY",
+            "details": {
+              "insuranceName": "Blue Sheild insurance",
+              "memberId": "BL7878",
+              "groupNumber": "BL1998989",
+              "subscriberFirstName": null,
+              "subscriberMiddleName": null,
+              "subscriberLastName": null,
+              "subscriberDoB": null,
+              "payerId": null,
+              "ssn": false,
+              "relationToSubscriber": null,
+              "gender": null
+            },
+            "imageInfo": null,
+            "editStatus": "PENDING",
+            "deleted": false
+          }
+        ],
+        "status": null
+      },
+      "copayAmount": 40.0,
+      "balanceAmount": 30.0,
+      "emailStatuses": [
+        {
+          "purpose": "CADENCE_2Hours",
+          "status": "SUCCESSFUL",
+          "statusTime": "2021-11-02T10:57:42Z",
+          "notificationCreatedTime": "2021-11-02T10:57:38.242Z"
+        },
+        {
+          "purpose": "CADENCE_1",
+          "status": "SUCCESSFUL",
+          "statusTime": "2021-11-02T07:39:18Z",
+          "notificationCreatedTime": "2021-11-02T07:39:17.527Z"
+        },
+        {
+          "purpose": "CADENCE_CURBS",
+          "status": "SUCCESSFUL",
+          "statusTime": "2021-11-02T08:07:55Z",
+          "notificationCreatedTime": "2021-11-02T08:07:53.202Z"
+        },
+        {
+          "purpose": "CADENCE_30Minutes",
+          "status": "SUCCESSFUL",
+          "statusTime": "2021-11-02T08:37:32Z",
+          "notificationCreatedTime": "2021-11-02T08:37:30.799Z"
+        },
+        {
+          "purpose": "CADENCE_1Hours",
+          "status": "SUCCESSFUL",
+          "statusTime": "2021-11-02T08:07:55Z",
+          "notificationCreatedTime": "2021-11-02T08:07:53.026Z"
+        },
+        {
+          "purpose": "PSS_CONFIRMATION",
+          "status": "SUCCESSFUL",
+          "statusTime": "2021-11-02T07:38:31Z",
+          "notificationCreatedTime": "2021-11-02T07:38:29.310Z"
+        }
+      ],
+      "textStatuses": [
+        {
+          "purpose": "CADENCE_1Hours",
+          "status": "UNSUBSCRIBED",
+          "statusTime": "2021-11-02T08:07:54.222Z",
+          "notificationCreatedTime": "2021-11-02T08:07:53.157Z"
+        },
+        {
+          "purpose": "PSS_CONFIRMATION",
+          "status": "UNSUBSCRIBED",
+          "statusTime": "2021-11-02T07:38:30.085Z",
+          "notificationCreatedTime": "2021-11-02T07:38:29.266Z"
+        },
+        {
+          "purpose": "CADENCE_CURBS",
+          "status": "UNSUBSCRIBED",
+          "statusTime": "2021-11-02T08:07:53.911Z",
+          "notificationCreatedTime": "2021-11-02T08:07:53.359Z"
+        },
+        {
+          "purpose": "CADENCE_30Minutes",
+          "status": "UNSUBSCRIBED",
+          "statusTime": "2021-11-02T08:37:31.658Z",
+          "notificationCreatedTime": "2021-11-02T08:37:30.775Z"
+        },
+        {
+          "purpose": "CADENCE_1",
+          "status": "UNSUBSCRIBED",
+          "statusTime": "2021-11-02T07:39:18.618Z",
+          "notificationCreatedTime": "2021-11-02T07:39:17.585Z"
+        },
+        {
+          "purpose": "CADENCE_2Hours",
+          "status": "SUCCESSFUL",
+          "statusTime": "2021-11-02T10:57:39.299Z",
+          "notificationCreatedTime": "2021-11-02T10:57:38.382Z"
+        }
+      ],
+      "appointmentActions": [],
+      "precheckAppointment": null,
+      "practionerAction": null,
+      "broadcastMessageDetails": { "emailCount": 0, "textCount": 0 },
+      "emailReminderCount": { "manualCadenceCount": 0, "cadenceCount": 4 },
+      "textReminderCount": { "manualCadenceCount": 0, "cadenceCount": 4 }
+    },
+    {
+      "practiceId": "24248",
+      "pmPatientId": "112233",
+      "pmAppointmentId": "prchkb20ff4386ac845008f2e9a3476cf29f4",
+      "encryptedIdentifier": "fjJ8mDZH4JNtkBVqI/n2nQTPdvz3K34F7GKM6x81AwlxoRZWN3oAZUV4DruNkWmAkiPjowtwmbNMw9SZc6deFw==",
+      "integrationId": "84",
+      "appointmentStatus": "NEW",
+      "appointmentType": "covid-19",
+      "locationId": null,
+      "locationName": "LA",
+      "providerName": "Provd 1",
+      "nationalProviderId": null,
+      "appointmentAddress": {
+        "phone": null,
+        "address": null,
+        "address2": null,
+        "city": null,
+        "state": null,
+        "zip": null
+      },
+      "startTime": 1636353000000,
+      "timezoneId": "Asia/Calcutta",
+      "patientDemographics": {
+        "firstName": "rohan",
+        "middleName": null,
+        "lastName": "xyz",
+        "address": "add1",
+        "address2": "add2",
+        "city": "LA",
+        "state": "NY",
+        "zip": "12345",
+        "birthDate": "1998-11-17",
+        "phone": 1234567899,
+        "email": "rohan.chandanshive@crossasyst.com",
+        "language": null,
+        "phoneType": null,
+        "status": "Changed",
+        "pharmacies": []
+      },
+      "insuranceInfo": {
+        "insuranceList": [
+          {
+            "tier": "PRIMARY",
+            "details": {
+              "insuranceName": "rohan xyz",
+              "memberId": "1155599",
+              "groupNumber": "1155599",
+              "subscriberFirstName": null,
+              "subscriberMiddleName": null,
+              "subscriberLastName": null,
+              "subscriberDoB": null,
+              "payerId": null,
+              "ssn": false,
+              "relationToSubscriber": null,
+              "gender": null
+            },
+            "imageInfo": null,
+            "editStatus": "PENDING",
+            "deleted": false
+          }
+        ],
+        "status": null
+      },
+      "copayAmount": 10.0,
+      "balanceAmount": 10.0,
+      "emailStatuses": [
+        {
+          "purpose": "CADENCE_CURBS",
+          "status": "SUCCESSFUL",
+          "statusTime": "2021-11-08T06:02:33Z",
+          "notificationCreatedTime": "2021-11-08T06:02:29.371Z"
+        },
+        {
+          "purpose": "CADENCE_30Minutes",
+          "status": "SUCCESSFUL",
+          "statusTime": "2021-11-08T06:02:33Z",
+          "notificationCreatedTime": "2021-11-08T06:02:29.249Z"
+        }
+      ],
+      "textStatuses": [],
+      "appointmentActions": [],
+      "precheckAppointment": {
+        "id": "6188c78a8097c03a0df1ed3e",
+        "patientDemographics": {
+          "firstName": "rohan",
+          "middleName": "abc",
+          "lastName": "xyz",
+          "address": "add1",
+          "address2": "add2",
+          "city": "LA",
+          "state": "LA",
+          "zip": "12345",
+          "birthDate": "1998-11-17",
+          "phone": 1234567899,
+          "email": "rohan.chandanshive@crossasyst.com",
+          "language": null,
+          "phoneType": "",
+          "pharmacies": [],
+          "status": "Confirmed",
+          "verified": true,
+          "status": "COMPLETE"
+        },
+        "insurance": {
+          "insuranceList": [
+            {
+              "tier": "PRIMARY",
+              "details": {
+                "insuranceName": "rohan xyz",
+                "memberId": "1155599",
+                "groupNumber": "1155599",
+                "subscriberFirstName": null,
+                "subscriberMiddleName": null,
+                "subscriberLastName": null,
+                "subscriberDoB": null,
+                "payerId": null,
+                "ssn": false,
+                "relationToSubscriber": null,
+                "gender": null
+              },
+              "imageInfo": null,
+              "editStatus": "CONFIRMED",
+              "deleted": false
+            },
+            {
+              "tier": "OTHER",
+              "details": {
+                "insuranceName": "image uploaded",
+                "memberId": "1155599",
+                "groupNumber": "1155599",
+                "subscriberFirstName": "",
+                "subscriberMiddleName": "",
+                "subscriberLastName": "",
+                "subscriberDoB": "",
+                "payerId": "",
+                "ssn": false,
+                "relationToSubscriber": null,
+                "gender": null
+              },
+              "imageInfo": {
+                "imageFileName": "283decb8-0cfd-4eb2-a67a-22f7ede297bb",
+                "image": null
+              },
+              "editStatus": "ADDED",
+              "deleted": false
+            }
+          ],
+          "status": "COMPLETE"
+        },
+        "copay": {
+          "payInOffice": false,
+          "payments": [
+            {
+              "amount": 10.0,
+              "date": 1636354056229,
+              "token": "e874c391-8470-4853-9489-7b5dbd01f2e3"
+            }
+          ],
+          "status": "COMPLETE"
+        },
+        "balance": { "payInOffice": true, "payments": [], "status": "SKIPPED" },
+        "patientForms": { "forms": [] },
+        "created": "2021-11-08T06:45:30.714Z",
+        "updated": "2021-11-08T06:47:51.134Z"
+      },
+      "practionerAction": null,
+      "broadcastMessageDetails": { "emailCount": 0, "textCount": 0 },
+      "emailReminderCount": { "manualCadenceCount": 0, "cadenceCount": 1 },
+      "textReminderCount": { "manualCadenceCount": 0, "cadenceCount": 0 }
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     {
+      "practiceId": "24248",
+      "pmPatientId": "112233",
+      "pmAppointmentId": "prchkb20ff4386ac845008f2e9a3476cf29f4",
+      "encryptedIdentifier": "hp+3icX6APTCNiEgdDuTg5o2ze4xdM01GwOspgIVhIv562TbUXw2Y6oX+aJhSV6rFLZa7R75euT4NHVX+jeykQ==",
+      "integrationId": "84",
+      "appointmentStatus": "NEW",
+      "appointmentType": "covid-19",
+      "locationId": null,
+      "locationName": "LA",
+      "providerName": "Provd 1",
+      "nationalProviderId": null,
+      "appointmentAddress": {
+        "phone": null,
+        "address": null,
+        "address2": null,
+        "city": null,
+        "state": null,
+        "zip": null
+      },
+      "startTime": 1636353000000,
+      "timezoneId": "Asia/Calcutta",
+      "patientDemographics": {
+        "status": "Changed",
+        "firstName": "rohan",
+        "middleName": null,
+        "lastName": "xyz",
+        "address": "add1",
+        "address2": "add2",
+        "city": "LA",
+        "state": "NY",
+        "zip": "12345",
+        "birthDate": "1998-11-17",
+        "phone": 1234567899,
+        "email": "rohan.chandanshive@crossasyst.com",
+        "language": null,
+        "phoneType": null,
+        "pharmacies": []
+      },
+      "insuranceInfo": {
+        "insuranceList": [
+          {
+            "tier": "PRIMARY",
+            "details": {
+              "insuranceName": "rohan xyz",
+              "memberId": "1155599",
+              "groupNumber": "1155599",
+              "subscriberFirstName": null,
+              "subscriberMiddleName": null,
+              "subscriberLastName": null,
+              "subscriberDoB": null,
+              "payerId": null,
+              "ssn": false,
+              "relationToSubscriber": null,
+              "gender": null
+            },
+            "imageInfo": null,
+            "editStatus": "PENDING",
+            "deleted": false
+          },
+          {
+            "tier": "PRIMARY",
+            "details": {
+              "insuranceName": "rohan xyz",
+              "memberId": "1155599",
+              "groupNumber": "1155599",
+              "subscriberFirstName": null,
+              "subscriberMiddleName": null,
+              "subscriberLastName": null,
+              "subscriberDoB": null,
+              "payerId": null,
+              "ssn": false,
+              "relationToSubscriber": null,
+              "gender": null
+            },
+            "imageInfo": null,
+            "editStatus": "PENDING",
+            "deleted": false
+          }
+          ,
+          {
+            "tier": "PRIMARY",
+            "details": {
+              "insuranceName": "rohan xyz",
+              "memberId": "1155599",
+              "groupNumber": "1155599",
+              "subscriberFirstName": null,
+              "subscriberMiddleName": null,
+              "subscriberLastName": null,
+              "subscriberDoB": null,
+              "payerId": null,
+              "ssn": false,
+              "relationToSubscriber": null,
+              "gender": null
+            },
+            "imageInfo": null,
+            "editStatus": "PENDING",
+            "deleted": false
+          }
+        ],
+        "status": null
+      },
+      "copayAmount": 10.0,
+      "balanceAmount": 10.0,
+      "emailStatuses": [
+        {
+          "purpose": "CADENCE_CURBS",
+          "status": "SUCCESSFUL",
+          "statusTime": "2021-11-08T06:02:33Z",
+          "notificationCreatedTime": "2021-11-08T06:02:29.371Z"
+        },
+        {
+          "purpose": "CADENCE_30Minutes",
+          "status": "SUCCESSFUL",
+          "statusTime": "2021-11-08T06:02:33Z",
+          "notificationCreatedTime": "2021-11-08T06:02:29.249Z"
+        }
+      ],
+      "textStatuses": [],
+      "appointmentActions": [],
+      "precheckAppointment": {
+        "id": "6188c78a8097c03a0df1ed3e",
+        "patientDemographics": { 
+          "firstName": "rohan",
+          "middleName": "abc",
+          "lastName": "xyz",
+          "address": "add1",
+          "address2": "add2",
+          "city": "LA",
+          "state": "LA",
+          "zip": "12345",
+          "birthDate": "1998-11-17",
+          "phone": 1234567899,
+          "email": "rohan.chandanshive@crossasyst.com",
+          "language": null,
+          "phoneType": "",
+          "pharmacies": [],
+          "verified": true,
+          "status": "COMPLETE"
+        },
+        "insurance": {
+          "insuranceList": [
+            {
+              "tier": "PRIMARY",
+              "details": {
+                "insuranceName": "rohan xyz",
+                "memberId": "1155599",
+                "groupNumber": "1155599",
+                "subscriberFirstName": null,
+                "subscriberMiddleName": null,
+                "subscriberLastName": null,
+                "subscriberDoB": null,
+                "payerId": null,
+                "ssn": false,
+                "relationToSubscriber": null,
+                "gender": null
+              },
+              "imageInfo": null,
+              "editStatus": "CONFIRMED",
+              "deleted": false
+            },
+            {
+              "tier": "OTHER",
+              "details": {
+                "insuranceName": "image uploaded",
+                "memberId": "1155599",
+                "groupNumber": "1155599",
+                "subscriberFirstName": "",
+                "subscriberMiddleName": "",
+                "subscriberLastName": "",
+                "subscriberDoB": "",
+                "payerId": "",
+                "ssn": false,
+                "relationToSubscriber": null,
+                "gender": null
+              },
+              "imageInfo": {
+                "imageFileName": "283decb8-0cfd-4eb2-a67a-22f7ede297bb",
+                "image": null
+              },
+              "editStatus": "ADDED",
+              "deleted": false
+            }
+          ],
+          "status": "COMPLETE"
+        },
+        "copay": {
+          "payInOffice": false,
+          "payments": [
+            {
+              "amount": 10.0,
+              "date": 1636354056229,
+              "token": "e874c391-8470-4853-9489-7b5dbd01f2e3"
+            }
+          ],
+          "status": "COMPLETE"
+        },
+        "balance": { "payInOffice": true, "payments": [], "status": "SKIPPED" },
+        "patientForms": { "forms": [] },
+        "created": "2021-11-08T06:45:30.714Z",
+        "updated": "2021-11-08T06:47:51.134Z"
+      },
+      "practionerAction": null,
+      "broadcastMessageDetails": { "emailCount": 0, "textCount": 0 },
+      "emailReminderCount": { "manualCadenceCount": 0, "cadenceCount": 1 },
+      "textReminderCount": { "manualCadenceCount": 0, "cadenceCount": 0 }
+    }
+  ]
+}

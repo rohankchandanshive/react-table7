@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>icon_shield-16px</title>
+    <desc>Created with Sketch.</desc>
+    <g id="icon_shield-16px" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle" fill="#FFFFFF" opacity="0" x="0" y="0" width="16" height="16"></rect>
+        <path d="M8.07758614,1.5 L2.5,3.95075755 L2.5,7.62689386 C2.5,11.02732 4.87977009,14.2071779 8.07758614,14.9791665 C11.2754022,14.2071779 13.6551723,11.02732 13.6551723,7.62689386 L13.6551723,3.95075755 L8.07758614,1.5 Z M6.83812255,11.3030302 L4.35919538,8.85227264 L5.23301721,7.9883806 L6.83812255,9.56911922 L10.9221551,5.53149616 L11.7959769,6.40151509 L6.83812255,11.3030302 Z" id="Mask" fill="#4A4A4A" fill-rule="nonzero"></path>
+    </g>
+</svg>
